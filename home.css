@@ -1,0 +1,16 @@
+main {
+  margin: auto;
+  width: 100%;
+  color: #525252;
+}
+
+.container {
+  box-shadow: 13px 13px 50px -23px rgba(0, 0, 0, 0.69);
+  border-radius: 10px;
+  padding: 3rem;
+  margin-top: 12.5rem;
+  margin-bottom: 12.5rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  background-color: #fff;
+}
