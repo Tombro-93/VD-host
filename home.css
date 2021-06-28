@@ -1,7 +1,12 @@
 main {
   margin: auto;
   width: 100%;
+  max-height: 100%;
   color: #525252;
+}
+
+.container h1 {
+  font-family: Playfair Display;
 }
 
 .container {

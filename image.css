@@ -1,0 +1,16 @@
+main {
+  margin: auto;
+  width: 90%;
+  max-height: 100%;
+  color: #525252;
+}
+
+.intro {
+  margin-top: 3rem;
+}
+
+.intro h2 {
+  color: #1d1f4b;
+  text-align: center;
+  padding: 2rem;
+}
