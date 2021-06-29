@@ -14,3 +14,67 @@ main {
   text-align: center;
   padding: 2rem;
 }
+
+.img2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 10px;
+}
+
+.sport {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.sport-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.img3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 10px;
+}
+
+.con {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.con-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.img4 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 10px;
+}
+
+.conv {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.conv-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.img6 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 10px;
+}
+
+.air {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.air-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+img {
+  max-width: 100%;
+}
