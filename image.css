@@ -1,6 +1,6 @@
 main {
   margin: auto;
-  width: 80%;
+  width: 90%;
   max-height: 100%;
   color: #525252;
 }
@@ -15,12 +15,24 @@ main {
   padding: 2rem;
 }
 
+.image-one {
+  padding: 2rem 0 2rem 0;
+}
+
+.image-two {
+  padding: 2rem 0 2rem 0;
+}
+
 .img2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 25px;
+  grid-column-gap: 100px;
   grid-row-gap: 10px;
+}
+
+.image-three {
+  padding: 2rem 0 2rem 0;
 }
 
 .sport {
@@ -30,11 +42,15 @@ main {
   grid-area: 1 / 2 / 2 / 3;
 }
 
+.image-three {
+  padding: 2rem 0 2rem 0;
+}
+
 .img3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 25px;
+  grid-column-gap: 100px;
   grid-row-gap: 10px;
 }
 
@@ -45,11 +61,15 @@ main {
   grid-area: 1 / 2 / 2 / 3;
 }
 
+.image-four {
+  padding: 2rem 0 2rem 0;
+}
+
 .img4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 25px;
+  grid-column-gap: 100px;
   grid-row-gap: 10px;
 }
 
@@ -60,11 +80,19 @@ main {
   grid-area: 1 / 2 / 2 / 3;
 }
 
+.image-five {
+  padding: 2rem 0 2rem 0;
+}
+
+.image-six {
+  padding: 2rem 0 2rem 0;
+}
+
 .img6 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 25px;
+  grid-column-gap: 100px;
   grid-row-gap: 10px;
 }
 
@@ -72,6 +100,25 @@ main {
   grid-area: 1 / 1 / 2 / 2;
 }
 .air-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.image-seven {
+  padding: 2rem 0 2rem 0;
+}
+
+.img7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 10px;
+}
+
+.trail {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.trail-2 {
   grid-area: 1 / 2 / 2 / 3;
 }
 
