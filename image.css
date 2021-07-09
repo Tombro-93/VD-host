@@ -1,6 +1,6 @@
 main {
   margin: auto;
-  width: 90%;
+  width: 70%;
   max-height: 100%;
   color: #525252;
 }
@@ -9,7 +9,7 @@ main {
   margin-top: 3rem;
 }
 
-.intro h2 {
+.intro h1 {
   color: #1d1f4b;
   text-align: center;
   padding: 2rem;
@@ -17,6 +17,12 @@ main {
 
 .image-one {
   padding: 2rem 0 2rem 0;
+}
+
+.image-one img {
+  margin: auto;
+  display: block;
+  padding-bottom: 1rem;
 }
 
 .image-two {
@@ -27,12 +33,9 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 20px;
   grid-row-gap: 10px;
-}
-
-.image-three {
-  padding: 2rem 0 2rem 0;
+  padding-bottom: 1rem;
 }
 
 .sport {
@@ -50,8 +53,9 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 20px;
   grid-row-gap: 10px;
+  padding-bottom: 1rem;
 }
 
 .con {
@@ -69,8 +73,9 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 20px;
   grid-row-gap: 10px;
+  padding-bottom: 1rem;
 }
 
 .conv {
@@ -84,6 +89,10 @@ main {
   padding: 2rem 0 2rem 0;
 }
 
+.image-five img {
+  padding-bottom: 1rem;
+}
+
 .image-six {
   padding: 2rem 0 2rem 0;
 }
@@ -92,8 +101,9 @@ main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 20px;
   grid-row-gap: 10px;
+  padding-bottom: 1rem;
 }
 
 .air {
@@ -105,21 +115,6 @@ main {
 
 .image-seven {
   padding: 2rem 0 2rem 0;
-}
-
-.img7 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 100px;
-  grid-row-gap: 10px;
-}
-
-.trail {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.trail-2 {
-  grid-area: 1 / 2 / 2 / 3;
 }
 
 img {
